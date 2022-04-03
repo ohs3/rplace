@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 const X_OFFSET = 547
-const Y_OFFSET = 1487
+const Y_OFFSET = 1375
 
 async function run() {
     const debug=true;
