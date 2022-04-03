@@ -7,12 +7,12 @@
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
-// @updateURL    https://halfdane.github.io/rplace/supporter.user.js
-// @downloadURL  https://halfdane.github.io/rplace/supporter.user.js
+// @updateURL    https://ohs3.github.io/rplace/supporter.user.js
+// @downloadURL  https://ohs3.github.io/rplace/supporter.user.js
 // ==/UserScript==
 
-const X_OFFSET = 773
-const Y_OFFSET = 735
+const X_OFFSET = 0
+const Y_OFFSET = 0
 
 async function run() {
     const debug=true;
@@ -75,7 +75,7 @@ async function run() {
                 resolve({template_ctx: template_ctx, template_img: img})
             }
             img.onerror = reject
-            img.src = "https://rplacesuperstonk.github.io/rplace-image/reference.png?tstamp=" + Math.floor(Date.now() / 10000);
+            img.src = "https://raw.githubusercontent.com/ohs3/rplace/main/mrbongMing.png?tstamp=" + Math.floor(Date.now() / 10000);
         })
     }
 
