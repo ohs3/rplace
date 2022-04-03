@@ -11,8 +11,8 @@
 // @downloadURL  https://ohs3.github.io/rplace/supporter.user.js
 // ==/UserScript==
 
-const X_OFFSET = 0
-const Y_OFFSET = 0
+const X_OFFSET = 547
+const Y_OFFSET = 1487
 
 async function run() {
     const debug=true;
